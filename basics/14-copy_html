@@ -1,3 +1,2 @@
 #!/bin/bash
-for f in *.html do if [ ! -f "../$f" ] then cp "$f" "../$f" else if [ "$f" -nt "../$f" ] then cp "$f" "../$f" fi fi done
 
